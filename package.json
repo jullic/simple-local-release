@@ -24,11 +24,13 @@
 	"author": "Alexander Lvov",
 	"license": "MIT",
 	"dependencies": {
-		"chalk": "^5.3.0",
+		"chalk": "4",
 		"commander": "^12.1.0",
 		"deepmerge": "^4.3.1",
 		"fs-extra": "^11.2.0",
 		"semver": "^7.6.3",
+		"simple-locale-manager": "^1.0.1",
+		"winston": "^3.15.0",
 		"zod": "^3.23.8"
 	},
 	"devDependencies": {

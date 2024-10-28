@@ -1,5 +1,8 @@
 #!/usr/bin/env node
-import { App } from '../lib/app';
+import '../libs/registers';
+import '../libs/handlers';
+
+import { App } from '../src/app';
 
 export const bootstrap = async () => {
 	const app = new App();
