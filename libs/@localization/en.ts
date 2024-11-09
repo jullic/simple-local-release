@@ -1,5 +1,9 @@
 export class EN {
+	questions = {
+		missingCommits: 'Missing fix or features commits. Continue?',
+	};
 	errors = {
+		incorrectVersion: 'Incorrect version',
 		missingCommits: 'Missing fix or features commits',
 		nextVersionAlreadyExistInGitTags: (version: string) => `Next version: ${version} already exist in git tags`,
 		firstMajorReleaseAlreadyExist: 'First major release already exist',
@@ -8,7 +12,7 @@ export class EN {
 		noGitRepository: 'No git repository',
 	};
 	success = {
-		release: (newVersion: string, newGitTag: string) => `New version: ${newVersion}\nNew git tag: ${newGitTag}`,
+		release: (newVersion: string, newGitTag: string) => `New version: ${newVersion}\nNew git tag: ${newGitTag}\nUpdated CHANGELOG`,
 		nextVersion: (nextVersion: string) => `${nextVersion}`,
 	};
 	commit = {
