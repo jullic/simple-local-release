@@ -1,10 +1,10 @@
 {
 	"name": "simple-local-release",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "small simple local util for releases, auto changelogs, auto increment version",
 	"main": "bin/index.js",
 	"bin": {
-		"io": "bin/index.js"
+		"slr": "bin/index.js"
 	},
 	"scripts": {
 		"push": "yarn build && npm publish",
